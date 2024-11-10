@@ -1,0 +1,39 @@
+.numericalSpecs {
+    background: #1a1a1a;
+    color: #fffffb;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 173px 70px;
+}
+
+.specItem {
+    text-align: center;
+}
+
+.specLabel {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.specValue {
+    font-size: 15px;
+    font-weight: 275;
+}
+
+.specUnit {
+    font-size: 36px;
+    font-weight: 275;
+}
+
+@media (max-width: 991px) {
+    .numericalSpecs {
+        flex-wrap: wrap;
+        padding: 100px 20px;
+    }
+
+    .specItem {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+}

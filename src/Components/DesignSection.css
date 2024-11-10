@@ -1,0 +1,154 @@
+.designSection {
+    background: #1a1a1a;
+    color: #fffffb;
+    font-family: Poppins, sans-serif;
+    padding: 115px 0;
+  }
+  
+  .featureGrid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 77px;
+  }
+  
+  .featureItem {
+    text-align: center;
+    width: 33%;
+  }
+  
+  .featureImage {
+    width: 60%;
+    aspect-ratio: 1.15;
+    object-fit: contain;
+  }
+  
+  .featureTitle {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .sustainabilityFeature {
+    display: flex;
+    margin-bottom: 109px;
+  }
+  
+  .sustainabilityImage {
+    margin-left: 90px;
+    width: 36%;
+    aspect-ratio: 1;
+    object-fit: contain;
+  }
+  
+  .sustainabilityContent {
+    width: 54%;
+    padding-left: 20px;
+  }
+  
+  .sustainabilityIcon {
+    width: 90%;
+    aspect-ratio: 2.08;
+    object-fit: contain;
+    margin-left: 80px;
+  }
+  
+  .sustainabilityTitle {
+    font-size: 27px;
+    margin-top: 38px;
+    margin-left: 80px;
+  }
+  
+  .sustainabilityDescription {
+    font-size: 18px;
+    margin-top: 21px;
+    margin-left: 80px;
+    max-width: 52%;
+  }
+  
+  .designSection {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .imageGalleryWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr; /* Left for gallery, right for showcase */
+  gap: 10px; /* Reduced the gap between the columns */
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Left side: Image gallery */
+.imageGallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  gap: 30px;
+}
+
+.galleryImage {
+  width: 100%;
+  margin-left: 120px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+/* Right side: Showcase image */
+.showcaseImage {
+  width: 53.7%;
+  margin-left: 230px;
+  aspect-ratio: 0.81;
+  object-fit: cover;
+}
+
+  
+  /* Container for the image gallery and showcase image */
+  /* .imageGalleryWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* 
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+  } */
+  
+  /* Left side: Image gallery */
+  /* .imageGallery {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 20px;
+  }
+  
+  .galleryImage {
+    margin-left: 80px;
+    width: 80%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  } */
+  
+  /* Right side: Showcase image */
+  /* .showcaseImage {
+    margin-left: 200px;
+    width: 50%;
+    aspect-ratio: 0.81; */
+    /* object-fit: cover; */
+  /* } */
+  
+  
+  @media (max-width: 991px) {
+    .designSection {
+      padding: 100px 20px;
+    }
+  
+    .featureGrid, .sustainabilityFeature {
+      flex-direction: column;
+    }
+  
+    .featureItem, .sustainabilityImage, .sustainabilityContent {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .imageGallery {
+      /* grid-template-columns: 1fr; */
+    }
+  }

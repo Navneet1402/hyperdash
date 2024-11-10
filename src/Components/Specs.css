@@ -1,0 +1,60 @@
+/* SpecificationSection.css */
+.specificationsSection {
+    max-height: 1000px;
+    height: 900px;
+    display: flex;
+    background-image: url(https://cdn.builder.io/api/v1/image/assets/272450c229394503ba79a2c462fecf0f/a46e896b80a95e9f5576ef11573e92c4aa2b748dbddbb7d50b06b5d1e150cca7?apiKey=272450c229394503ba79a2c462fecf0f&);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    align-items: center;
+    justify-content: flex-start; /* Align to the left */
+  }
+  
+
+  .specificationsSection {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    padding: 40px;
+    background-color: #000; /* Optional: Add a background color for contrast */
+  }
+  
+  .specContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%; /* Adjust width as needed */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* Pushes content to the right */
+    text-align: left;
+  }
+  
+  .specTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .specGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+  }
+  
+  .specItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .specLabel {
+    font-size: 2px;
+    /* font-weight: bold; */
+    margin-bottom: 8px;
+  }
+  
+  .specValue {
+    font-size: 1rem;
+  }

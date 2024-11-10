@@ -1,0 +1,128 @@
+/* General Footer Styles */
+.footer {
+    background: #1a1a1a;
+    color: #fffffb;
+    font-family: Poppins, sans-serif;
+    padding: 30px 70px 102px;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    margin-bottom: 144px;
+  }
+  
+  .newsletterTitle {
+    font-size: 30px;
+    margin-bottom: 34px;
+  }
+  
+  .newsletterForm {
+    display: flex;
+    align-items: center;
+    width: 393px;
+    max-width: 100%;
+  }
+  
+  .emailInput {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fffffb;
+    color: #808080;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  
+  .submitButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  .submitButton img {
+    width: 29px;
+    aspect-ratio: 0.97;
+  }
+  
+  /* Navigation Section */
+  .footerNav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .navColumn h3 {
+    font-size: 21px;
+    margin-bottom: 31px;
+  }
+  
+  .navColumn ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navColumn li {
+    margin-bottom: 22px;
+  }
+  
+  .navColumn a {
+    color: #fffffb;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .navColumn a:hover {
+    color: #ff6600; /* Add a hover effect */
+  }
+  
+  /* Accessibility Utility Class */
+  .visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 991px) {
+    .footer {
+      padding: 100px 20px;
+    }
+  
+    .newsletter {
+      margin-bottom: 40px;
+    }
+  
+    .footerNav {
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+  
+    .navColumn {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .newsletterForm {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .emailInput {
+      margin-bottom: 10px;
+    }
+  
+    .submitButton {
+      margin-left: 0;
+    }
+  }
+  

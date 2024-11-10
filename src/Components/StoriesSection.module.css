@@ -1,0 +1,71 @@
+.storiesSection {
+    background: #1a1a1a;
+    color: #fffffb;
+    font-family: Poppins, sans-serif;
+    padding: 121px 80px;
+  }
+  
+  .storiesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 57px;
+  }
+  
+  .storiesTitle {
+    font-size: 36px;
+  }
+  
+  .storiesDecoration {
+    width: 137px;
+    aspect-ratio: 2.92;
+    object-fit: contain;
+  }
+  
+  .storiesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .storyCard {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .storyImage {
+    width: 100%;
+    aspect-ratio: 0.96;
+    object-fit: contain;
+  }
+
+  .img2{
+
+    background-color: red;
+    cursor: pointer;
+    
+  }
+  
+  .storyTitle {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .storyDescription {
+    font-size: 14px;
+    margin-top: 21px;
+  }
+  
+  @media (max-width: 991px) {
+    .storiesSection {
+      padding: 100px 20px;
+    }
+  
+    .storiesGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .storyCard {
+      margin-bottom: 40px;
+    }
+  }

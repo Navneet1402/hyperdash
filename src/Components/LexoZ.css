@@ -1,0 +1,55 @@
+/* LexoZ.css */
+.lexoZ-container {
+    display: flex; /* Use flexbox to align content */
+    flex-direction: row; /* Arrange items in a row (default is row, can be omitted) */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Vertically center align items */
+    padding: 20px;
+    background-color: #000; /* Optional: Set a background color */
+    color: #fff; 
+  }
+  
+  
+  
+  .lexoZ-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 90px;
+  }
+  
+  .lexoZ-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  
+  .lexoZ-description {
+    margin-left: 90px;
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.6; /* Adds space between lines for readability */
+    width: 55%; /* Limits the width of the description */
+  }
+  
+  .lexoZ-image {
+    width: 50%; /* Adjust the size of the image */
+    max-width: 600px; /* Optional: Set max width */
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    margin-left: 20px; /* Add space between text and image */
+  }
+  
+  .lexoZ-cta{
+    background-color: white;
+    margin-left: 90px;
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+    width: 140px;
+  }
+  .lexoZ-cta2{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 20px;
+  }
